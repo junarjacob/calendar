@@ -1,12 +1,12 @@
 <?php
 $json  = array ();
-$user='root';
-$pass='';
+$user='admin23AMCiC';
+$pass='iQFLkuv1vnJ5';
 
 $query = 'SELECT * FROM evenement ORDER BY id';
 
 try {
-    $db = new PDO('mysql:host=localhost;dbname=fullcalendar', $user, $pass); 
+    $db = new PDO('mysql:host=calendar-junar.rhcloud.com;dbname=fullcalendar', $user, $pass);
 	
 	//echo  json_encode($result -> fetchAll (PDO :: FETCH_ASSOC));
     //$db = null;
